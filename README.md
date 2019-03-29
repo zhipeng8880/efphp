@@ -70,8 +70,8 @@ EFPHP(easy fast php) 是一个易于上手的高性能PHP框架。
     │  └─views                          视图目录
     │     └─index                       控制器分组目录（demo)
     │         └─index                   控制器名（demo)
-    │         	  ├─index.php           方法名视图（demo)
-    │         	  └─newslist.php        方法名视图（demo)
+    │            ├─index.php            方法名视图（demo)
+    │            └─newslist.php         方法名视图（demo)
     │
     ├─lib                               框架目录
     │  ├─module                         模块目录
