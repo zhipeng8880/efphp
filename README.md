@@ -54,43 +54,43 @@ EFPHP(easy fast php) 是一个易于上手的高性能PHP框架。
 # EFPHP 框架目录
 
     project  
-    ├─app                               应用目录（demo）
-    │  ├─controllers                    控制器目录
-    │  │  ├─index                       控制器分组目录
-    │  │  │   └─IndexController.php     控制器（demo)
-    │  │  └─BaseController.php          控制器基类（demo)
-    │  │
-    │  ├─models                         模型目录
-    │  │  └─NewsModel.php               模型（demo)
-    │  │
-    │  ├─services                       服务目录
-    │  │  └─index                       服务分组目录
-    │  │      └─NewsService.php         新闻服务（demo)
-    │  │ 
-    │  └─views                          视图目录
-    │     └─index                       控制器分组目录（demo)
-    │         └─index                   控制器名（demo)
-    │            ├─index.php            方法名视图（demo)
-    │            └─newslist.php         方法名视图（demo)
-    │
-    ├─lib                               框架目录
-    │  ├─module                         模块目录
-    │  │  ├─MysqliModule.php            mysqli模块 		
-    │  │  └─RedisModule.php             redis模块 
-    │  │ 		
-    │  ├─Controller.php                 框架-控制器基类
-    │  ├─Model.php                      框架-模型基类
-    │  ├─Request.php                    框架-请求类
-    │  ├─Service.php                    框架-服务基类
-    │  ├─Start.php                      框架-入口类
-    │  └─View.php                       框架-视图类
-    │   
-    ├─public                            公开访问目录（静态资源和站点入口）
-    │  ├─50x.html                       500错误页面
-    │  ├─404.html                       404错误页面
-    │  └─index.php                      框架入口文件（单一入口指向文件）
-    │
-    └─config.php                        框架配置文件
+       ├─app                               应用目录（demo）
+       │  ├─controllers                    控制器目录
+       │  │  ├─index                       控制器分组目录
+       │  │  │   └─IndexController.php     控制器（demo)
+       │  │  └─BaseController.php          控制器基类（demo)
+       │  │
+       │  ├─models                         模型目录
+       │  │  └─NewsModel.php               模型（demo)
+       │  │
+       │  ├─services                       服务目录
+       │  │  └─index                       服务分组目录
+       │  │      └─NewsService.php         新闻服务（demo)
+       │  │ 
+       │  └─views                          视图目录
+       │     └─index                       控制器分组目录（demo)
+       │         └─index                   控制器名（demo)
+       │            ├─index.php            方法名视图（demo)
+       │            └─newslist.php         方法名视图（demo)
+       │
+       ├─lib                               框架目录
+       │  ├─module                         模块目录
+       │  │  ├─MysqliModule.php            mysqli模块 		
+       │  │  └─RedisModule.php             redis模块 
+       │  │ 		
+       │  ├─Controller.php                 框架-控制器基类
+       │  ├─Model.php                      框架-模型基类
+       │  ├─Request.php                    框架-请求类
+       │  ├─Service.php                    框架-服务基类
+       │  ├─Start.php                      框架-入口类
+       │  └─View.php                       框架-视图类
+       │   
+       ├─public                            公开访问目录（静态资源和站点入口）
+       │  ├─50x.html                       500错误页面
+       │  ├─404.html                       404错误页面
+       │  └─index.php                      框架入口文件（单一入口指向文件）
+       │
+       └─config.php                        框架配置文件
 
 
 
