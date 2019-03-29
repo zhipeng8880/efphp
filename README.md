@@ -53,6 +53,10 @@ EFPHP(easy fast php) 是一个易于上手的高性能PHP框架。
 
 # EFPHP 框架目录
 
+app 目录是存放业务代码的目录。
+lib 目录是框架文件目录，你重构框架时需要改动此目录。
+config.php文件是项目配置文件，包括数据库，缓存等配置都在此文件中。
+    
     project  
        ├─app                               应用目录（demo）
        │  ├─controllers                    控制器目录
@@ -92,9 +96,6 @@ EFPHP(easy fast php) 是一个易于上手的高性能PHP框架。
        │
        └─config.php                        框架配置文件
 
-    app 目录是存放业务代码的目录。
-    lib 目录是框架文件目录，你重构框架时需要改动此目录。
-    config.php文件是项目配置文件，包括数据库，缓存等配置都在此文件中。
 
 
 
