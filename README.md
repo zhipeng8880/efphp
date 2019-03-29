@@ -1,3 +1,3 @@
-# EFPHP v0.1.0
+# EFPHP
 easy-fast-php-framework
 
