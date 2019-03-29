@@ -35,12 +35,12 @@ $config = [
     ],  //mysql主从
     '_mongodb'  => [
         'master' => [
-            'host' => 'mongo24997i.eos.grid.sina.com.cn',
+            'host' => '127.0.0.1',
             'port' => 24997,
-            'user' => 'finance_app_rw',
-            'password' => 'UxQJ1bWtCOpHvYYY',
-            'database' => 'finance_app',
-            'replicaSet' => 'financeApp'
+            'user' => 'user',
+            'password' => '123456',
+            'database' => 'app',
+            'replicaSet' => 'app'
         ],
         "slave" =>[],
     ],
